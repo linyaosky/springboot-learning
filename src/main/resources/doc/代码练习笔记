@@ -1,0 +1,5 @@
+Chapter1：
+1.pom.xml中默认设置的jdk版本为1.8.
+2.默认设置的tomcat的端口号为：8080.如果冲突可在resources/application.properties
+    文件中自定义端口如：server.port=8081
+3.SpringbootApplicationTests类中用到的3个equalTo(),content(),status()方法需要静态导入
